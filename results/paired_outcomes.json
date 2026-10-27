@@ -1,0 +1,207 @@
+{
+  "definition": {
+    "qa": "Normalized exact match equals 1 against any accepted answer. Token-F1 gains are not counted as binary correctness improvements.",
+    "rag": "Normalized exact match equals 1 against any accepted answer, including exact normalized UNANSWERABLE.",
+    "math": "The full response parses as a finite numeric value/fraction and matches an accepted reference within atol=1e-6, rtol=1e-5.",
+    "improvement": "Comparator incorrect and target correct.",
+    "regression": "Comparator correct and target incorrect."
+  },
+  "comparisons": {
+    "random_vs_baseline": {
+      "target": "random",
+      "comparator": "baseline",
+      "tasks": {
+        "qa": {
+          "both_correct": 0,
+          "both_incorrect": 307,
+          "improvements": 21,
+          "regressions": 2,
+          "count": 330,
+          "comparator_correct": 2,
+          "target_correct": 21,
+          "net_correct_gain": 19,
+          "net_accuracy_percentage_points": 5.757575757575758
+        },
+        "rag": {
+          "both_correct": 53,
+          "both_incorrect": 213,
+          "improvements": 60,
+          "regressions": 24,
+          "count": 350,
+          "comparator_correct": 77,
+          "target_correct": 113,
+          "net_correct_gain": 36,
+          "net_accuracy_percentage_points": 10.285714285714286
+        },
+        "math": {
+          "both_correct": 5,
+          "both_incorrect": 289,
+          "improvements": 26,
+          "regressions": 7,
+          "count": 327,
+          "comparator_correct": 12,
+          "target_correct": 31,
+          "net_correct_gain": 19,
+          "net_accuracy_percentage_points": 5.81039755351682
+        }
+      },
+      "pooled_binary_counts": {
+        "count": 1007,
+        "both_correct": 58,
+        "both_incorrect": 809,
+        "improvements": 107,
+        "regressions": 33,
+        "comparator_correct": 91,
+        "target_correct": 165,
+        "net_correct_gain": 74
+      }
+    },
+    "similar_vs_baseline": {
+      "target": "similar",
+      "comparator": "baseline",
+      "tasks": {
+        "qa": {
+          "both_correct": 0,
+          "both_incorrect": 295,
+          "improvements": 33,
+          "regressions": 2,
+          "count": 330,
+          "comparator_correct": 2,
+          "target_correct": 33,
+          "net_correct_gain": 31,
+          "net_accuracy_percentage_points": 9.393939393939394
+        },
+        "rag": {
+          "both_correct": 54,
+          "both_incorrect": 198,
+          "improvements": 75,
+          "regressions": 23,
+          "count": 350,
+          "comparator_correct": 77,
+          "target_correct": 129,
+          "net_correct_gain": 52,
+          "net_accuracy_percentage_points": 14.857142857142858
+        },
+        "math": {
+          "both_correct": 6,
+          "both_incorrect": 283,
+          "improvements": 32,
+          "regressions": 6,
+          "count": 327,
+          "comparator_correct": 12,
+          "target_correct": 38,
+          "net_correct_gain": 26,
+          "net_accuracy_percentage_points": 7.951070336391437
+        }
+      },
+      "pooled_binary_counts": {
+        "count": 1007,
+        "both_correct": 60,
+        "both_incorrect": 776,
+        "improvements": 140,
+        "regressions": 31,
+        "comparator_correct": 91,
+        "target_correct": 200,
+        "net_correct_gain": 109
+      }
+    },
+    "sft_vs_baseline": {
+      "target": "sft",
+      "comparator": "baseline",
+      "tasks": {
+        "qa": {
+          "both_correct": 2,
+          "both_incorrect": 282,
+          "improvements": 46,
+          "regressions": 0,
+          "count": 330,
+          "comparator_correct": 2,
+          "target_correct": 48,
+          "net_correct_gain": 46,
+          "net_accuracy_percentage_points": 13.93939393939394
+        },
+        "rag": {
+          "both_correct": 52,
+          "both_incorrect": 105,
+          "improvements": 168,
+          "regressions": 25,
+          "count": 350,
+          "comparator_correct": 77,
+          "target_correct": 220,
+          "net_correct_gain": 143,
+          "net_accuracy_percentage_points": 40.857142857142854
+        },
+        "math": {
+          "both_correct": 10,
+          "both_incorrect": 245,
+          "improvements": 70,
+          "regressions": 2,
+          "count": 327,
+          "comparator_correct": 12,
+          "target_correct": 80,
+          "net_correct_gain": 68,
+          "net_accuracy_percentage_points": 20.795107033639145
+        }
+      },
+      "pooled_binary_counts": {
+        "count": 1007,
+        "both_correct": 64,
+        "both_incorrect": 632,
+        "improvements": 284,
+        "regressions": 27,
+        "comparator_correct": 91,
+        "target_correct": 348,
+        "net_correct_gain": 257
+      }
+    },
+    "similar_vs_random": {
+      "target": "similar",
+      "comparator": "random",
+      "tasks": {
+        "qa": {
+          "both_correct": 17,
+          "both_incorrect": 293,
+          "improvements": 16,
+          "regressions": 4,
+          "count": 330,
+          "comparator_correct": 21,
+          "target_correct": 33,
+          "net_correct_gain": 12,
+          "net_accuracy_percentage_points": 3.6363636363636362
+        },
+        "rag": {
+          "both_correct": 87,
+          "both_incorrect": 195,
+          "improvements": 42,
+          "regressions": 26,
+          "count": 350,
+          "comparator_correct": 113,
+          "target_correct": 129,
+          "net_correct_gain": 16,
+          "net_accuracy_percentage_points": 4.571428571428571
+        },
+        "math": {
+          "both_correct": 20,
+          "both_incorrect": 278,
+          "improvements": 18,
+          "regressions": 11,
+          "count": 327,
+          "comparator_correct": 31,
+          "target_correct": 38,
+          "net_correct_gain": 7,
+          "net_accuracy_percentage_points": 2.140672782874618
+        }
+      },
+      "pooled_binary_counts": {
+        "count": 1007,
+        "both_correct": 124,
+        "both_incorrect": 766,
+        "improvements": 76,
+        "regressions": 41,
+        "comparator_correct": 165,
+        "target_correct": 200,
+        "net_correct_gain": 35
+      }
+    }
+  }
+}

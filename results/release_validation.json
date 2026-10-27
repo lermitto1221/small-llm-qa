@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-10-27",
+  "cpu_test_suite": {
+    "tests": 112,
+    "passed": 112,
+    "skipped": 0,
+    "python": "3.13.14",
+    "transformers": "4.51.3",
+    "scope": "Synthetic fixtures and CPU library/configuration checks; no model inference."
+  },
+  "synthetic_demo": {
+    "examples": 6,
+    "composite_score": 0.75,
+    "model_inference": false
+  },
+  "static_release_checks": {
+    "status": "passed",
+    "notebook_code_cells_compile": 13,
+    "notebook_outputs_empty": true,
+    "private_identifier_scan": "passed",
+    "credential_probe_rejected": true,
+    "answer_file_probe_rejected": true
+  },
+  "public_package_gpu_rerun": false,
+  "github_actions_executed": false,
+  "original_project_files_unchanged": true,
+  "note": "Historical model scores are separate from these package checks. No private data, raw test answers, or pretrained/adapter weights are included."
+}

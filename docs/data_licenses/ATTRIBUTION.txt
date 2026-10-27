@@ -1,0 +1,50 @@
+Source attribution
+
+Natural Questions / NQ-open: Google Research and collaborators.
+https://github.com/google-research-datasets/natural-questions
+https://huggingface.co/datasets/google-research-datasets/nq_open
+Wikipedia-derived data: CC BY-SA 3.0; code: Apache 2.0.
+Selected short questions/answers; normalized and regrouped for this project.
+
+TriviaQA: Mandar Joshi, Eunsol Choi, Daniel Weld and Luke Zettlemoyer.
+https://github.com/mandarjoshi90/triviaqa
+https://huggingface.co/datasets/mandarjoshi/trivia_qa
+Data and code: Apache 2.0.
+Selected questions and answer aliases; filtered, deduplicated and regrouped.
+
+SQuAD 2.0: Pranav Rajpurkar, Robin Jia, Percy Liang and collaborators.
+https://rajpurkar.github.io/SQuAD-explorer/
+Data: CC BY-SA 4.0. Original article titles and per-example Wikipedia URLs
+are recorded in sources.csv. Questions and passages were selected by
+length and answer validity, split by article, and paired with distractors.
+
+HotpotQA: Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio,
+William W. Cohen, Ruslan Salakhutdinov and Christopher D. Manning.
+https://hotpotqa.github.io/
+https://huggingface.co/datasets/hotpotqa/hotpot_qa
+Data: CC BY-SA 4.0. Selected questions were regrouped; source passages were
+reduced to two supporting passages and one distractor. Per-example
+Wikipedia URLs are recorded in sources.csv.
+
+GSM8K: OpenAI.
+https://github.com/openai/grade-school-math
+MIT License, copyright (c) 2021 OpenAI.
+Selected short problems with 2-4 annotated calculations. Final answers
+were extracted and reformatted; the original worked solutions are not
+part of the student data.
+
+SVAMP: Arkil Patel, Satwik Bhattamishra and Navin Goyal.
+https://github.com/arkilpatel/SVAMP
+MIT License, copyright (c) 2021 Arkil Patel.
+Selected problems; body/question fields joined and numeric labels
+converted to exact fractions. Questions were regrouped for this project.
+
+Course-authored material
+Computing/Python questions, fictitious policies and questions, new math
+problems, and factual paraphrases/questions from official model sources
+were prepared for this project. Original-source URLs for the factual
+paraphrases are recorded in sources.csv. These course-authored additions
+are distributed under CC BY-SA 4.0.
+
+The component licenses above remain applicable to their respective data.
+Modifications and the combined course data compilation: CC BY-SA 4.0.

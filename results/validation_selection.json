@@ -1,0 +1,20 @@
+{
+  "selected_n": 5,
+  "scores": {
+    "1": {
+      "random": 0.15010662177328846,
+      "similar": 0.18207729468599035
+    },
+    "3": {
+      "random": 0.18572149747588343,
+      "similar": 0.22150318816985484
+    },
+    "5": {
+      "random": 0.1736876006441224,
+      "similar": 0.2548497490164157
+    }
+  },
+  "selection_rule": "mean(random macro, similar macro); ties within 1e-12 choose smaller n",
+  "validation_count": 180,
+  "per_task_count": 60
+}

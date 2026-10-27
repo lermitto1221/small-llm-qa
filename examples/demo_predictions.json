@@ -1,0 +1,26 @@
+[
+  {
+    "Sample_id": "DEMO_QA_1",
+    "Answer": "central processing unit"
+  },
+  {
+    "Sample_id": "DEMO_QA_2",
+    "Answer": "The keyword is def."
+  },
+  {
+    "Sample_id": "DEMO_RAG_1",
+    "Answer": "18:00"
+  },
+  {
+    "Sample_id": "DEMO_RAG_2",
+    "Answer": "UNANSWERABLE"
+  },
+  {
+    "Sample_id": "DEMO_MATH_1",
+    "Answer": "12"
+  },
+  {
+    "Sample_id": "DEMO_MATH_2",
+    "Answer": "0.25"
+  }
+]

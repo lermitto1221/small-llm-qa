@@ -1,0 +1,63 @@
+[
+  {
+    "Sample_id": "DEMO_QA_1",
+    "Task": "qa",
+    "Question": "What does CPU stand for?",
+    "Context": "",
+    "Answer": "central processing unit",
+    "Accepted_answers": [
+      "central processing unit"
+    ]
+  },
+  {
+    "Sample_id": "DEMO_QA_2",
+    "Task": "qa",
+    "Question": "Which Python keyword defines a function?",
+    "Context": "",
+    "Answer": "def",
+    "Accepted_answers": [
+      "def"
+    ]
+  },
+  {
+    "Sample_id": "DEMO_RAG_1",
+    "Task": "rag",
+    "Question": "When does the observatory close?",
+    "Context": "The observatory closes at 18:00.",
+    "Answer": "18:00",
+    "Accepted_answers": [
+      "18:00"
+    ]
+  },
+  {
+    "Sample_id": "DEMO_RAG_2",
+    "Task": "rag",
+    "Question": "What is the admission price?",
+    "Context": "The observatory closes at 18:00.",
+    "Answer": "UNANSWERABLE",
+    "Accepted_answers": [
+      "UNANSWERABLE"
+    ]
+  },
+  {
+    "Sample_id": "DEMO_MATH_1",
+    "Task": "math",
+    "Question": "Three boxes contain four marbles each. How many marbles are there?",
+    "Context": "",
+    "Answer": "12",
+    "Accepted_answers": [
+      "12"
+    ]
+  },
+  {
+    "Sample_id": "DEMO_MATH_2",
+    "Task": "math",
+    "Question": "What is one quarter plus one quarter?",
+    "Context": "",
+    "Answer": "0.5",
+    "Accepted_answers": [
+      "0.5",
+      "1/2"
+    ]
+  }
+]

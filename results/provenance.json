@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "record_type": "curated_aggregate_extract_of_completed_colab_experiment",
+  "run_id": "runs_fp16_greedy_v1",
+  "training_run_id": "runs_fp16_ampfix_v1",
+  "gpu": "Tesla T4",
+  "python_experiment": "3.11.12",
+  "seed": 42,
+  "core_source_unchanged_from_completed_inference": true,
+  "core_source_sha256": "3bbcffd62ec53833663d91748145c82bfaea82c7bda6f2fc5cc879574261d49b",
+  "model": {
+    "model_name": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "compute_dtype": "float16",
+    "seed": 42
+  },
+  "embedding": {
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_seq_length": 512,
+    "device": "cpu"
+  },
+  "original_data_manifest_sha256": "848696b33137850f6dd6942c327277d9aeb3f6b7172bb1a93ecd7ddb44ead6cc",
+  "original_final_evaluation_sha256": "a574b262df791fb47d76a9b5055bde0fcac7293caccc0ceaf1b69d15c6dc1b30",
+  "original_frozen_config_sha256": "4c40825681ebb4ec32cd8ebbae1dafbfc930c5bac5831b7e84aeb0cf777cb554",
+  "original_adapter_sha256_recorded_not_locally_rehashed": "a21a6ce4c49256a7a6bd134ec0f0a18defafd3c4d67a078f9f5ef7bf67418a3e",
+  "original_training_summary_sha256": "571a35564fa7dfa4777ad1922bae4e33f9aaea323ef0bc67a73eb01fe587f783",
+  "original_statistics_sha256": {
+    "baseline": "c59442d65691e9fdd0a4b3f75d68781f38c09d78c3b7a276b56eedab68f93f7c",
+    "random": "b200ccf309b0e4de3369b328b8db4d46706534eb9ed4bca4893a9617592ef7a5",
+    "similar": "0e7cc31d27d062b3423b06b02aa0d676999f19a07b0b6ec6ef03a0f7fe83aa5f",
+    "sft": "d68fec2fee5fd5faa18dd0bf93cf993cede51d02e8772e4b781e85e29afefaa1"
+  },
+  "original_loss_history_sha256": "00ffdccd961a893ee81ed91006ce8e160ff9735d7c58178a523c43a93b5b83de",
+  "original_loss_curve_sha256": "efed9ca8235d8ed1c1ee99229e62719a2d301fddcb2177580b532d449d823ed1",
+  "audit": {
+    "original_export_files_verified": 134,
+    "per_sample_records_recomputed": 4028,
+    "scope": "Original completed analysis; raw per-example inputs, answers, and journals are not distributed here."
+  },
+  "public_package_gpu_rerun": false,
+  "distribution_note": "Aggregate extracts omit private paths, account links, and per-example data. Documentation and notebook setup are adapted for distribution; the original frozen bundle is not supplied as a runnable checkpoint."
+}
