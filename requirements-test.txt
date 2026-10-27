@@ -1,0 +1,6 @@
+# CPU tests: no model weights, CUDA, or torch installation required.
+transformers==4.51.3
+tokenizers==0.21.1
+huggingface-hub==0.30.2
+safetensors==0.5.3
+numpy==2.2.5

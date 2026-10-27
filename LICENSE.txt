@@ -1,0 +1,10 @@
+Copyright (c) 2026 the project authors. All rights reserved.
+
+This repository is publicly available for inspection and review. No additional
+open-source license is granted for the original project code beyond rights
+arising under applicable law and the hosting platform's terms.
+
+Third-party libraries, pretrained models, and datasets retain their own
+licenses. The notices in docs/data_licenses apply to the identified data
+sources, not to this project's original code. They do not imply that the
+corresponding datasets or model weights are included in this repository.

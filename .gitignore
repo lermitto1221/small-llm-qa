@@ -1,0 +1,38 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+*.egg-info/
+.pytest_cache/
+.cache/
+.ipynb_checkpoints/
+build/
+dist/
+tmp/
+
+# Private datasets, generated runs, model weights, and historical exports
+data/
+input/
+runs*/
+artifacts/
+output/
+reports/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.zip
+*.tar*
+
+# Credentials and local editor state
+.env
+.env.*
+*.pem
+*.key
+*.p12
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

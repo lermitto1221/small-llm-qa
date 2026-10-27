@@ -1,0 +1,21 @@
+Small LLM QA: Few-Shot Retrieval and QLoRA
+
+This implementation uses pretrained Qwen3-1.7B and all-MiniLM-L6-v2. The
+recorded experiment includes completed QLoRA adapter training and four final
+inference conditions; it does not include pretraining a foundation model.
+
+The public package contains source, tests, a clean notebook, synthetic demo
+examples, and aggregate results. The original mixed dataset, test references,
+per-example course predictions, model weights, and adapter weights are not
+redistributed. Aggregate training and inference results describe a completed
+Colab experiment, not a newly executed GPU run of this distribution.
+
+Original project code: see LICENSE.txt. No open-source code license has been
+selected. Third-party model cards identify Qwen3-1.7B and all-MiniLM-L6-v2 as
+Apache-2.0. Runtime dependencies keep their respective licenses.
+
+Data provenance, expected archive format, and separate data-license notices
+are documented in docs/DATA.md and docs/data_licenses/. The original course
+compilation identifies CC BY-SA 4.0 for its compilation/modifications, with
+source-specific licenses remaining applicable. These statements are copied
+as attribution context and do not distribute or relicense the dataset.
